@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  mail:
+    username: error
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
